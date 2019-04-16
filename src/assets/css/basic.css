@@ -1,0 +1,77 @@
+
+html,body{margin: 0;padding: 0;height: 100%;}
+dl,dt,dd,ul,li{margin: 0;padding: 0;list-style: none;}
+a{text-decoration: none;color:#666;}
+
+h1,h2,h3,h4,h5,h6{margin: 0;padding:0;}
+
+#app{
+    width: 100%;height: 100%;background: #e8f4f9;
+    /* position: absolute;overflow: hidden; */
+    overflow:scroll;
+}
+
+
+
+
+.hello{color:rgb(39, 39, 39);overflow: auto;height: 100%;}
+
+
+.banner{width: 100%;height: 210px;}
+
+.sliderbanner{height: 210px;background: pink;  }
+
+.ht{background:#0eb4f0}
+
+
+
+/*首页sidemenu*/
+.iheadtools{}
+.iheadtools a{ border:1px solid white; padding: 5px;border-radius:50%;}
+
+
+.cc{   }
+.sharePopup {
+    width: 100%;
+    height: 100%;
+    background: rgba(56, 56, 56, 0.1);
+  }
+
+  .sbd{width: 60%;height:100%;float:left;background: white;overflow: hidden;position: relative;}
+  .sbd_close{width: 40%;float: left;height: 100%;}
+  .sbd_h{background:url(../images/head.png); margin: 0px;padding:15px 0 10px 15px;}
+  .sbd_h dt {overflow: hidden;}
+  .sbd_h dt .dt-l {float: left; border-radius:50%;width:28%;height:0;margin:10px;padding-bottom:28%;overflow: hidden;border:2px solid white;}
+
+  .sbd_h dt .dt-r{float: right;margin:10px;}
+  .sbd_h dd  span{font-size: 12px;color:white;}
+  .sbd_h dd .iuser_name{margin:0 2px;}
+  .sbd_h dd .iuser_lv{padding: 1px 5px;margin: 0 3px;border:1px solid white;border-radius:3px;}
+  .sbd_h dd .iuser_type{margin: 0 3px;padding: 1px 5px;background: #1ca7fd;border:1px solid #c0d5e6; }
+
+  .sbd_h dt .dt-r i{color: white;font-size: 20px;}
+  .sbd_h dt div.dt-l img{width: 100%;}  
+  .shareUl {   }
+
+.sbd_follow{}
+.sbd_follow ul{display: flex;padding: 10px 0;}
+.sbd_follow li{flex: 1;text-align: center}
+
+
+
+  /* .shareUl li {border-bottom: 1px solid #eee;} */
+
+  .shareUl li a{display:flex;padding: 8px 0 8px 10px}
+  .shareUl li a i{font-size: 20px;margin: 0 0 0 10px}
+  .shareUl li a span{font-size: 14px;line-height: 24px;margin: 0 0 0 10px;}
+
+  .shareFooter{position: absolute; bottom: 0;width: 100%; padding:10px 0;border-top:1px solid #eee; background: white}
+  .sf_tools{display: flex;}
+  .sf_tools li{ flex:1;text-align: center;box-sizing: border-box;}
+  .sf_tools li span{display: flex;}
+  /* */
+  .sf_tools li i{display:block;font-size: 24px;width:24px;height:24px;line-height:24px;color:pink; margin: 0 auto;   border: 1px solid pink;  border-radius:50%; padding: 5px;} 
+ 
+  .shareCancel{padding: 5px;text-align: center}
+   
+   
