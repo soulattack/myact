@@ -1,8 +1,8 @@
 <template>
   <div>
      <mt-header class="ht">
-      <router-link to="/" slot="left">
-        <mt-button icon="back"></mt-button>
+      <router-link @click.prevent="$router.go(-1);" slot="left">
+        <mt-button icon="back">111</mt-button>
       </router-link>
       <mt-button icon="more" slot="right"></mt-button>
     </mt-header>

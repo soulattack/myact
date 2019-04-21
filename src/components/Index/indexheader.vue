@@ -5,7 +5,7 @@
   <router-link to="/" slot="left">
     <mt-button class="iconfont icon-menu" @click="showside" ></mt-button>
     <!-- <mt-button >{{this.$store.state.showme}}</mt-button> -->
-    <i ></i>
+    <i></i>
   </router-link>
   <mt-button icon="search" slot="right"></mt-button>
   <mt-button icon="more" slot="right"></mt-button>

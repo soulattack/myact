@@ -1,9 +1,9 @@
 <template>
   
     <mt-header class="ht">
-      <router-link to="/" slot="left">
-        <mt-button icon="back">返回</mt-button>
-      </router-link>
+      <a @click.prevent="$router.go(-1);"  to="" slot="left">
+        <mt-button icon="back"></mt-button>
+      </a>
       <mt-button icon="more" slot="right"></mt-button>
     </mt-header>
   
