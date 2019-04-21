@@ -6,7 +6,8 @@ Vue.use(Vuex);
 const state={
     showme: false,
     changableNum:0,
-    msgNum:27
+    msgNum:27,
+    pathurl:'http://192.168.1.104/data/'
     //要设置的初始属性值
   };
 
