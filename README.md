@@ -20,4 +20,4 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-vue 自制demo，页面UI仿照a站和B站, 主框架为vue axios vue-router vux，数据来源有本地php服务器模拟的数据（php页面发送json格式数据）和本地静态json文件（比如一般几年内不会没有大变动的省市县json打包在本地 节省资源，但测试时候可那个有跨域问题 特别是谷歌浏览器反倒更坑）。页面切换动画可以再优化 目前体验不是特别良好 虽然流畅度还好。
+vue 自制demo，页面UI仿照a站和B站, 主框架为vue axios vue-router vux，数据来源有本地php服务器模拟的数据（php页面发送json格式数据）和本地静态json文件（比如一般几年内不会有变动的省市县json打包在本地 节省资源，但测试时候可那个有跨域问题 特别是谷歌浏览器反倒更坑）。页面切换动画可以再优化 目前体验不是特别良好 虽然流畅度还好。
